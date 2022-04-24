@@ -1,0 +1,38 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+
+}
+#an1{
+    -fx-background-color: #ccffcc;
+    
+        
+}
+
+#lb100{
+    -fx-font: 22px Verdana;
+}
+#btn1{
+    -fx-background-color: #ffcc66;
+    -fx-border-color: #330099;
+    -fx-border-radius: 2;
+    -fx-border-width: 3;
+    -fx-text-fill: #ffffff;
+    -fx-font: sans-serif;
+    
+    
+}
+
+#tf1{
+    -fx-background-color: #009966;
+    -fx-border-color: #330099;
+    -fx-border-radius: 2;
+    -fx-border-width: 3;
+    -fx-text-fill: #ffffff;
+    -fx-font: sans-serif;
+}
+
+

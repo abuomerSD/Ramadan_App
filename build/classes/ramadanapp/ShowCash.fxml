@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="653.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ramadanapp.MyController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <TableView layoutX="115.0" layoutY="52.0" prefHeight="283.0" prefWidth="430.0">
+        <columns>
+          <TableColumn prefWidth="115.0" text="اجمالي الكاش" />
+          <TableColumn prefWidth="501.0" text="الاسم" />
+        </columns>
+      </TableView>
+      <Label layoutX="497.0" layoutY="9.0" text="اجمالي الكاش">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="241.0" layoutY="344.0" text="الاجمالي">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="115.0" layoutY="344.0" prefHeight="25.0" prefWidth="113.0" />
+   </children>
+</AnchorPane>

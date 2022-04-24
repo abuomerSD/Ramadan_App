@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="259.0" prefWidth="592.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ramadanapp.MyController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="498.0" layoutY="71.0" text="الاسم ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="46.0" layoutY="71.0" prefHeight="27.0" prefWidth="432.0" />
+      <Label layoutX="450.0" layoutY="21.0" text="اضافة و تعديل الاسماء">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="338.0" layoutY="122.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="104.0" text="اضافة">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/icons8-add-property-50.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="210.0" layoutY="122.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="104.0" text="حذف">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/icons8-delete-document-50.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="82.0" layoutY="122.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="104.0" text="تعديل">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/icons8-software-50.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

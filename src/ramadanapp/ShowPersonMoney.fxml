@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="674.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ramadanapp.MyController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="596.0" layoutY="62.0" text="الاسم">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="99.0" layoutY="62.0" prefHeight="32.0" prefWidth="477.0" />
+      <Button layoutX="465.0" layoutY="106.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="111.0" text="استعلام">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/find.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView layoutX="19.0" layoutY="214.0" prefHeight="275.0" prefWidth="641.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="المتبقي" />
+            <TableColumn prefWidth="75.0" text="الاجمالي العام" />
+          <TableColumn text="التاريخ" />
+            <TableColumn prefWidth="78.0" text="دفعة البنك" />
+          <TableColumn prefWidth="70.0" text="التاريخ" />
+            <TableColumn prefWidth="75.0" text="دفعة الكاش" />
+            <TableColumn prefWidth="186.0" text="الاسم" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

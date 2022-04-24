@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor2" prefHeight="513.0" prefWidth="339.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ramadanapp.MyController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="btn2" layoutX="82.0" layoutY="61.0" mnemonicParsing="false" onAction="#cashBtn" prefHeight="111.0" prefWidth="199.0" text="الكاش">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/dollars.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="btn3" layoutX="82.0" layoutY="201.0" mnemonicParsing="false" onAction="#bankBtn" prefHeight="111.0" prefWidth="199.0" text="الاموال البنكية">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/bank.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="82.0" layoutY="338.0" mnemonicParsing="false" onAction="#chooseYearValue" prefHeight="111.0" prefWidth="199.0" text="تحديد القيمة السنوية">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/checkmark.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

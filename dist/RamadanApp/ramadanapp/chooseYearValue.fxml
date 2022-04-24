@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="287.0" prefWidth="653.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ramadanapp.MyController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="496.0" layoutY="49.0" text="تحديد القيمة السنوية">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="115.0" layoutY="49.0" prefHeight="30.0" prefWidth="372.0" />
+      <Button layoutX="370.0" layoutY="94.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="107.0" text="تأكيد">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/checked_checkbox.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="123.0" layoutY="94.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="107.0" text="تعديل">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/edit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="247.0" layoutY="94.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="107.0" text="حذف">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Favorites/deletered.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField layoutX="123.0" layoutY="181.0" prefHeight="25.0" prefWidth="82.0" />
+      <Label layoutX="214.0" layoutY="183.0" text="القيمة السنوية">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
